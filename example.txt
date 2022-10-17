@@ -1,0 +1,10 @@
+        //the shortcut below will create the code below
+        .container>(aside#left>h2{Left Contents})+(aside#right>h2{Right Contents})
+        
+        // this is the code that will be created
+        <aside id="left">
+            <h2>Left Contents</h2>
+        </aside>
+        <aside id="right">
+            <h2>Right Contents</h2>
+        </aside>

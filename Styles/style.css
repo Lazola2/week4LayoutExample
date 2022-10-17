@@ -1,0 +1,29 @@
+*,*:is(::after,::before) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#left, 
+#right{
+    display: block;
+    width: 300px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#left{
+    background-color: darkcyan;
+    float: left;  
+}
+
+#right{
+    background-color: darkkhaki;
+    float: right;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: azure; 
+}
